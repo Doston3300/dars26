@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header class="head">
+        <div class="container">
+            <div class="title d-flex justify-content-center me-5">
+                <h1 class="col__right-text ">Movies catalog</h1>
+            </div>
+            <div class="row mt-5">
+                <div class="col-4">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="ave" aria-label="ave" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="5" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="btn-group ">
+                        <button type="button" class="btn btn-secondary dropdown-toggle d-flex" data-bs-toggle="dropdown" aria-expanded="false">
+                          All
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group  mt-4 ">
+                        <button type="button" class="btn btn-secondary dropdown-toggle d-flex" data-bs-toggle="dropdown" aria-expanded="false">
+                         Rating (  hight to low  )
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        </ul>
+                    </div>
+                    <div class="d-grid gap-2 mt-3">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </div>
+                    <div class="title mt-3">
+                        <p class="text-uppercase ">Bookmarked movies</p>
+                    </div>
+                    <div class="text p-2  justify-content-center">
+                        <p class="text_war ">Avangers. Infinity War</p>
+                        <button class="btn__text d-flex justify-content-start rounded-2 p-2 justify-content-center ">Remove</button>
+
+                    </div>
+                    <div class="text p-2  justify-content-center">
+                        <p class="text_war "> The Avangers</p>
+                        <button class="btn__text d-flex justify-content-start rounded-2 p-2 justify-content-center ">Remove</button>
+
+                    </div>
+                    <div class="text p-2  justify-content-center">
+                        <p class="text_war ">12 Years a Slave</p>
+                        <button class="btn__text d-flex justify-content-start rounded-2 p-2 justify-content-center ">Remove</button>
+
+                    </div>
+                </div>
+                <div class="col-8 ">
+                    <h2>Search results: 39</h2>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder=" Use the from on the left to search for a movie">
+                        <div class="img d-flex gap-5">
+                            <div class="left mt-3 ">
+                                <img class="left__img" src="./img/images.jpg" alt="">
+                                <h2 class="left__img-title ">Search results: 39</h2>
+                                <div class="table d-flex ">
+                                    <img class="icon__table" src="./img/png-clipart-computer-icons-calendar-date-event-table-calendar-text.png" alt="">
+                                    <p class="table__nomer ">2018</p>
+                                </div>
+                                <div class="star d-flex">
+                                    <img class="star__icon " src="./img/Star_icon_stylized.svg.png" alt="star">
+                                    <p class="table__nomer">87</p>
+
+                                </div>
+                                <div class="footer__btn justify-content-center d-flex me-2 gap-4">
+                                    <button type="button" class="btn btn-outline-primary">Watch trailer</button>
+                                    <button type="button" class="btn btn-outline-secondary">More info</button>
+                                    <button type="button" class="btn btn-outline-success">Bookmark</button>
+                                </div>
+                            </div>
+                            <div class="left mt-3 ">
+                                <img class="left__img" src="./img/images (1).jpg" alt="">
+                                <h2 class="left__img-title ">Search results: 39</h2>
+                                <div class="table d-flex ">
+                                    <img class="icon__table" src="./img/png-clipart-computer-icons-calendar-date-event-table-calendar-text.png" alt="">
+                                    <p class="table__nomer ">2018</p>
+                                </div>
+                                <div class="star d-flex">
+                                    <img class="star__icon " src="./img/Star_icon_stylized.svg.png" alt="star">
+                                    <p class="table__nomer">87</p>
+
+                                </div>
+                                <div class="footer__btn justify-content-center d-flex me-2 gap-4">
+                                    <button type="button" class="btn btn-outline-primary">Watch trailer</button>
+                                    <button type="button" class="btn btn-outline-secondary">More info</button>
+                                    <button type="button" class="btn btn-outline-success">Bookmark</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-group d-flex container-md justify-content-center mt-5" role="group" aria-label="Basic example">
+                            <button type="button" class="btn__footer btn-primary">1</button>
+                            <button type="button" class="btn__footer btn-primary">2</button>
+                            <button type="button" class="btn__footer btn-primary">3</button>
+                            <button type="button" class="btn__footer btn-primary">4</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

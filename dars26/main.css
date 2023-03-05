@@ -1,0 +1,84 @@
+.btn {
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(72, 70, 70);
+}
+
+.btn-group {
+    width: 420px;
+}
+
+.dropdown-menu {
+    justify-content: end;
+}
+
+.text-uppercase {
+    text-align: center;
+    font-size: 30px;
+}
+
+.col {
+    width: 200px;
+    background-color: rgb(38, 38, 184);
+}
+
+.text {
+    width: 420px;
+    height: 150px;
+    border: 1px solid grey;
+}
+
+.text_war {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.btn__text {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: brown;
+    text-align: center;
+}
+
+.col__right-text {
+    padding-left: 100px;
+    font-size: 40px;
+    color: black;
+}
+
+.title {}
+
+.left {
+    width: 400px;
+    height: 500px;
+    border: 1px solid gray;
+}
+
+.left__img {
+    width: 100%;
+    height: 60%;
+}
+
+.left__img-title {
+    padding-left: 20px;
+}
+
+.icon__table {
+    padding-left: 15px;
+    width: 10%;
+    height: 105;
+}
+
+.star__icon {
+    width: 8%;
+    padding-left: 15px;
+}
+
+.btn_footer {
+    background-color: rgb(239, 239, 242);
+}
+
+.btn_footer :hover {
+    background-color: rgb(64, 64, 235);
+}
